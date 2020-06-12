@@ -1,16 +1,17 @@
 <?php
 include_once ("connect.php");
-$email = $_POST['email'];
+$nome = $_POST['nome'];
+$login = $_POST['login'];
 $senha = $_POST['senha'];
 
-$result_cadastro = "insert into tb_login(email,senha)values('$email','$senha')";
+$result_cadastro = "insert into aut_usuarios(login,senha,nome)values('$login','$senha','$nome')";
 $result_cadastro = mysqli_query($link,$result_cadastro);
 
     if(mysqli_affected_rows($link) != 0){
-        echo "<script>alert('Usuário cadastrado com sucesso');window.location = '/cadastro.php';</script>";         
+        echo "<script>alert('Usuário cadastrado com sucesso');window.location = '../login.php';</script>";         
 
     }if(empty ($email) OR empty($senha)){
-        echo "<script>alert('Não foi possivel cadastra o usuário!');window.location = '/cadastro.php';</script>"; 
+        echo "<script>alert('Não foi possivel cadastra o usuário!');window.location = '../cadastro.php';</script>"; 
     }
 
 ?>
