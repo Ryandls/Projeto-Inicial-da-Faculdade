@@ -11,7 +11,7 @@ session_start();
 * caso 0, invalido.
 */
 $login = $_POST['login'];
-$senha = $_POST['senha'];
+$senha = md5($_POST['senha']);
 
 $SQL = "select * from aut_usuarios where login = '$login' AND senha = '$senha'";
 

@@ -6,7 +6,7 @@ $senha = $_POST['senha'];
 $id_usuario = $_SESSION["id_usuario"];
 
 
-$redefinirup = "update aut_usuarios set login = '$login', senha = '$senha' where id = '$id_usuario';";
+$redefinirup = "update aut_usuarios set login = '$login', senha = md5('$senha') where id = '$id_usuario';";
 $redefinirip = mysqli_query($link,$redefinirup);
    
     if(mysqli_affected_rows($link) == 1){

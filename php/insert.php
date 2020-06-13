@@ -5,7 +5,7 @@ $sobrenome = $_POST['sobrenome'];
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 
-$result_cadastro = "insert into aut_usuarios(login,senha,nome,sobrenome)values('$login','$senha','$nome','$sobrenome')";
+$result_cadastro = "insert into aut_usuarios(login,senha,nome,sobrenome)values('$login',md5('$senha'),'$nome','$sobrenome')";
 $result_cadastro = mysqli_query($link,$result_cadastro);
 
     if(mysqli_affected_rows($link) != 0){
