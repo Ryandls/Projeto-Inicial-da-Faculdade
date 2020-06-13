@@ -2,7 +2,7 @@
 // Conecta-se com o MySQL
 //$host = "sql10.freesqldatabase.com";
 //$user = "sql10347253";
-//$pass = "bJ5LAhN1s6";
+////$pass = "bJ5LAhN1s6";
 //$db = "sql10347253";
 
 $host = "localhost";

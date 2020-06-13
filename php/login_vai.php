@@ -29,22 +29,22 @@ if($total)
     if(!strcmp($senha, $dados["senha"]))
     {
         // TUDO OK! Agora, passa os dados para a sessao e redireciona o usuario
-        $_SESSION["id_usuario"]   = $dados["id"];
+        $_SESSION["id_usuario"] = $dados["id"];
         $_SESSION["nome_usuario"] = stripslashes($dados["nome"]);
-        header("Location: ../index.php");
+        header("Location: ../inicio.php");
         exit;
     }
     // Senha invalida
     else
     {
-        echo "<script>alert('Senha invalida!');window.location = '../login.php';</script>";
+        echo "<script>alert('Senha invalida!');window.location = '../index.php';</script>";
         exit;
     }
 }
 // Login invalido
 else
 {
-    echo "<script>alert('O Email fornecido é inexistente!');window.location = '../login.php';</script>";
+    echo "<script>alert('O Email fornecido é inexistente!');window.location = '../index.php';</script>";
     exit;
 }
 ?>

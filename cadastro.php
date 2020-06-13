@@ -4,8 +4,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Constructive HTML Template</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	
+	<title>Cadastro</title>
 <!--
 
 Template 2102 Constructive
@@ -78,20 +79,23 @@ http://www.tooplate.com/view/2102-constructive
                                 <div>
                                     <form align="center" action="php/insert.php" method="POST"  class="contact-form">
                                         <div class="form-group">
-                                            <input style="width:500px;" type="text" name="nome" class="form-control" placeholder="Nome Completo" required>
+                                            <input style="width:500px;" type="text" name="nome" class="form-control" placeholder="Nome" required>
                                         </div>
-                                        <div class="form-group">
+										<div class="form-group">
+                                            <input style="width:500px; " type="text" name="sobrenome" class="form-control" placeholder="Sobrenome" required>
+                                        </div>
+										<div class="form-group">
                                             <input style="width:500px; " type="email" name="login" class="form-control" placeholder="Email" required>
                                         </div>
                                         <div class="form-group">
                                             <input style="width:500px; " type="password" name="senha" class="form-control" placeholder="Senha" required>
                                         </div>
-										<table style="margin-left:45px;">
+										<table style="margin-left:30px;">
 											<th>
 												<button type="submit" class="btn tm-btn ">Finalizar Cadastro</button>
 											</th>
 											<th>	
-												<button style="margin-left:5px;" class="btn tm-btn " onclick="window.location.href='login.php'">Voltar</button> 
+												<button style="margin-left:5px;" class="btn tm-btn " onclick="window.location.href='index.php'">Voltar</button> 
 											</th>
 										</table>
 									</form>
