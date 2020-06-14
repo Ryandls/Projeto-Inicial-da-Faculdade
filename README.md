@@ -12,6 +12,6 @@ Eu utilizei o Free Sql Database (https://www.freesqldatabase.com).
 
 5.No painel vai ter uma opção de entrar no PhpMyAdmin, você entra e coloca os dados do database:host,name,user, password e port number;
 
-6.No já nom PhpMyAdmin, você edita o banco de dados da forma que você quiser.
+6.já logado no PhpMyAdmin, você edita o banco de dados da forma que você quiser.
 
 Obs: Eu coloquei o meu site em um dominio Free, usando no site https://www.000webhost.com.
