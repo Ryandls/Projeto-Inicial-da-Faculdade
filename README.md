@@ -9,7 +9,7 @@ Eu utilizei o Free Sql Database (https://www.freesqldatabase.com).
 
 3. Apos criar a conta, você vai receber um email com os dados do database: host,name,user, password e port number;
 
-4 Você vai logar no site do Free Sql Database.
+4. Você vai logar no site do Free Sql Database.
 
 5. No painel vai ter uma opção de entrar no PhpMyAdmin, você entra e coloca os dados do database:host,name,user, password e port number;
 
