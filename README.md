@@ -1,5 +1,5 @@
 # Projeto-Inicial-da-Faculdade
-Editado por: Bryan Douglas Lima Dos Santos.
+
 
 Eu utilizei o Free Sql Database (https://www.freesqldatabase.com).
 
@@ -18,3 +18,5 @@ Eu utilizei o Free Sql Database (https://www.freesqldatabase.com).
 7. Já no projeto você cria uma arquivo.php para fazer a conexão com o banco de dados.
 
 Obs: Eu coloquei o meu site em um dominio Free, usando o site https://www.000webhost.com.
+
+Editado por: Bryan Douglas Lima Dos Santos.
