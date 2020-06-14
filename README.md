@@ -1,4 +1,5 @@
 # Projeto-Inicial-da-Faculdade
+Editado por: Bryan Douglas Lima Dos Santos.
 
 Eu utilizei o Free Sql Database (https://www.freesqldatabase.com).
 
