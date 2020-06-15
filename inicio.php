@@ -91,7 +91,6 @@ http://www.tooplate.com/view/2102-constructive
 						<div class="ml-auto">
 							<header class="mb-4"><h1 class="tm-text-shadow"><?php echo $_SESSION['nome_usuario'];?>, Seja Bem Vindo!</h1></header>
 							<p class="mb-5 tm-font-big">“Se construtores de edifícios construíssem seus prédios como os programadores escrevem seus programas, o primeiro pica-pau que viesse poderia destruir uma civilização.”<br> By: Gerald Weinberg</p>
-							<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a> 
 							<!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
 						</div>
 					</section>
@@ -158,7 +157,7 @@ http://www.tooplate.com/view/2102-constructive
 		// Setup Carousel
 		function setupCarousel() {
 
-			// If current page isn't Carousel page, don't do anything.
+			// If current page isn't Carousel page, don't do anything
 			if($('#tm-section-2').css('display') == "none") {
 			}
 			else {	// If current page is Carousel page, set up the Carousel.
